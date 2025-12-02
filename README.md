@@ -22,8 +22,8 @@ The dataset contains **200 mall customers**, including:
 - CustomerID  
 - Gender  
 - Age  
-- Annual Income (k$)  
-- Spending Score (1–100)
+- Annual Income  
+- Spending Score
 
 These features make the dataset ideal for clustering and segmentation tasks.
 
@@ -34,15 +34,13 @@ These features make the dataset ideal for clustering and segmentation tasks.
 ### **1. Data Preprocessing**
 - Handling missing values  
 - Feature scaling (StandardScaler / MinMaxScaler)  
-- Optional PCA for dimensionality reduction  
-
+ 
 ---
 
 ### **2. K-Means Clustering**
 - Used to form *k* groups based on similarity  
 - Determined optimal k using:
   - Elbow Method  
-  - Silhouette Score  
 
 ---
 
@@ -86,6 +84,4 @@ These features make the dataset ideal for clustering and segmentation tasks.
 
 This project demonstrates how unsupervised learning reveals hidden patterns in customer behavior.  
 The insights gained can support targeted marketing, recommendation systems, and improved customer experience strategies.
-
-## 🗂️ Project Structure
 
